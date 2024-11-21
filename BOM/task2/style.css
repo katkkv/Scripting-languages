@@ -1,0 +1,25 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+a {
+	margin: 20px;
+}
+
+table {
+	border-spacing: 0px;
+}
+
+tr:first-of-type > td {
+	font-weight: bold;
+}
+
+td {
+	border: 1px solid black;
+	text-align: center;
+	vertical-align: middle;
+
+	padding: 10px;
+}
