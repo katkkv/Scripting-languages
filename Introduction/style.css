@@ -1,0 +1,40 @@
+html, body {
+	height: 100%;
+	margin: 0px;
+}
+
+header {
+	padding: 5px;
+}
+
+header a {
+	font-size: 20px;
+}
+
+header a:hover {
+	color: red;
+}
+
+.task-links {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 92%;
+}
+
+.task-links a {
+	font-size: 30px;
+	margin: 5px;
+}
+
+.task-links a:hover {
+	font-size: 35px;
+	color: red;
+}
+
+footer {
+	text-align: right;
+	padding: 5px;
+	font-size: 15px;
+}

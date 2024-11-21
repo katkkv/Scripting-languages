@@ -1,0 +1,97 @@
+:root {
+	--html-color: red;
+	--css-color: #254bdd;
+	--js-color: #e09d28;
+}
+
+
+.title {
+	text-align: center;
+}
+
+.icon {
+	width: 20px;
+}
+
+p span {
+	font-weight: 900;
+}
+
+.paragraph p {
+	font-size: 17px;
+}
+
+.paragraph#html p {
+	font-family: sans-serif;
+	font-size: 16px;
+	color: var(--html-color);
+}
+
+.paragraph#css p {
+	font-family: cursive;
+	font-size: 17px;
+	color: var(--css-color);
+}
+
+.paragraph#js p {
+	font-family: monospace;
+	font-size: 20px;
+	color: var(--js-color);
+}
+
+
+#main-list {
+	font-size: 20px;
+}
+
+.sub-list-title#html {
+	color: var(--html-color);
+}
+
+.sub-list-title#css {
+	color: var(--css-color);
+}
+
+.sub-list-title#js {
+	color: var(--js-color);
+}
+
+.sub-list#html {
+	list-style-type: disc;
+}
+
+.sub-list#css {
+	list-style-type: circle;
+}
+
+.sub-list#js {
+	list-style-type: square;
+}
+
+.table-wrapper {
+	overflow-x: auto;
+}
+
+table {
+	border-spacing: 0px;
+	margin: 20px;
+}
+
+th {
+	background: lightgrey;
+}
+
+td, th {
+	text-align: center;
+	width: 10%;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+.img-container {
+	text-align: center;
+}
+
+span.footer {
+	margin-top: 100px;
+}

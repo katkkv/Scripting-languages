@@ -1,0 +1,9 @@
+span {
+	text-decoration: underline;
+}
+
+img.small {
+	width: 300px;
+	padding: 5px;
+	border: 3px solid black;
+}

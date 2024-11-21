@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Задание №4</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+	<div class="wrapper">
+		<h2>Окно регистрации нового пользователя</h2>
+		<form>
+			<fieldset>
+				<legend>Персональные данные</legend>
+				<div class="field">
+					<label for="firstName">Имя</label>
+					<input type="text" name="firstName" required>
+				</div>
+				<div class="field">
+					<label for="lastName">Фамилия</label>
+					<input type="text" name="lastName" required>
+				</div>
+				<div class="field">
+					<label for="patronymic">Отчество</label>
+					<input type="text" name="patronymic">
+				</div>
+				<div class="field">
+					<label for="age">Ваш возраст</label>
+					<input type="number" name="age" min="0" max="100" required>
+				</div>
+				<div class="field">
+					<label for="sex">Ваш пол</label>
+					<div>
+						<input type="radio" name="sex" id="male" value="male" required>
+						<label for="male">Мужской</label>
+					</div>
+					<div>
+						<input type="radio" name="sex" id="female" value="female" required>
+						<label for="female">Женский</label>
+					</div>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Контактная информация</legend>
+				<div class="field">
+					<label for="phone">Номер телефона</label>
+					<input type="phone" name="phone" required>
+				</div>
+				<div class="field">
+					<label for="email">Email</label>
+					<input type="email" name="email" required>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Регистрация</legend>
+				<div class="field">
+					<label for="login">Логин</label>
+					<input type="text" name="login" required>
+				</div>
+				<div class="field">
+					<label for="password">Пароль</label>
+					<input type="password" name="password" required>
+				</div>
+				<div class="field">
+					<label for="passwordRepeat">Повторите пароль</label>
+					<input type="password" name="passwordRepeat" required>
+				</div>
+			</fieldset>
+			<div class="break"></div>
+			<div class="controls">
+				<input type="submit" name="submit">
+				<input type="reset" name="reset">
+				<input type="button" name="print" id="printBtn" value="Печать">
+			</div>
+		</form>
+	</div>
+</body>
+</html>

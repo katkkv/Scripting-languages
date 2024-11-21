@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Задание №3</title>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="block center">
+		<canvas id="canvas"></canvas>
+	</div>
+	<div class="block justify">
+		<label>y =<input type="text" name="function" id="function" placeholder="Укажите функцию..."></label>
+		<label>
+			x =<input type="number" name="scale" id="scaleX" value="10">px
+			|
+			y =<input type="number" name="scale" id="scaleY" value="10">px
+		</label>
+		<label>Шаг =<input type="number" name="step" id="step" value="0.001"></label>
+		<label>Цвет:<input type="color" name="color" id="color"></label>
+		<label>Холст:<input type="number" name="size" id="width" value="1000">X<input type="number" name="size" id="height" value="500"></label>
+	</div>
+	<div class="block">
+		<label><input type="radio" name="func" value="x**2">y = x<sup>2</sup></label>
+		<label><input type="radio" name="func" value="x**3">y = x<sup>3</sup></label>
+		<label><input type="radio" name="func" value="sin(x)">y = sin(x)</label>
+		<label><input type="radio" name="func" value="cos(x)">y = cos(x)</label>
+	</div>
+	<div class="block center">
+		<input type="submit" name="submit" id="submit" value="Построить график">
+		<input type="reset" name="reset" id="reset" value="Очистить">
+	</div>
+</body>
+</html>

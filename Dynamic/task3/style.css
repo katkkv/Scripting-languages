@@ -1,0 +1,45 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.block {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+}
+
+.block.center {
+	justify-content: center;
+}
+
+.block.justify {
+	justify-content: space-between;
+}
+
+canvas {
+	border: 1px solid black;
+	width: 75%;
+	margin: 5px;
+}
+
+label, input:not([type="color"]) {
+	font-size: 20px;
+	padding: 10px;
+	margin: 0 5px;
+}
+
+input[type="number"] {
+	width: 60px;
+}
+
+input[type="number"]#step {
+	width: 100px;
+}

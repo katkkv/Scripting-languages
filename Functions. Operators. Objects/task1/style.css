@@ -1,0 +1,47 @@
+html, body {
+	height: 100%;
+	margin: 0px;
+	background: linear-gradient(10deg, white, lightblue, blue);
+}
+
+.buttons-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.task-button {
+	font-size: 17px;
+	margin: 10px;
+	margin-top: 20px;
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: lightgreen;
+}
+
+.task-button:hover {
+	background-color: green;
+	scale: 1.1;
+}
+
+.task-button:active {
+	scale: 0.95;
+	background-color: darkgreen;
+	border-right-color: grey;
+	border-bottom-color: grey;
+}
+
+.output-wrapper {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.output-entry {
+	width: 90%;
+	min-height: 600px;
+	font-size: 25px;
+	background-color: inherit;
+	border: 2px solid black;
+	border-radius: 10px;
+}
